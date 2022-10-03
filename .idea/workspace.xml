@@ -4,7 +4,10 @@
     <list default="true" id="27cc4fe8-5343-40ed-aab2-90671a2f5b28" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/compareController.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/compareController.py" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/utils/github.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/github.py" afterDir="false" />
+=======
+>>>>>>> 26d452c (feat: implement compare repo)
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +86,8 @@
       <workItem from="1664013239172" duration="277000" />
       <workItem from="1664013536120" duration="5316000" />
       <workItem from="1664782456487" duration="2590000" />
+      <workItem from="1664788586753" duration="2708000" />
+      <workItem from="1665022302695" duration="376000" />
     </task>
     <servers />
   </component>
