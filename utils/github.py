@@ -1,6 +1,5 @@
 import requests
 class Github:
-
     @staticmethod
     def extract_url(urls):
         temp = []
