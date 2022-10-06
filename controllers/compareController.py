@@ -1,6 +1,7 @@
 from flask import jsonify, request, send_file
-from utils.github import Github
 from matplotlib import pyplot as plt
+from utils.github import Github
+from utils.loc import Loc
 
 class CompareController:
     @staticmethod
@@ -15,6 +16,8 @@ class CompareController:
             pull = Github.get_pulls(u[0], u[1])
             print(u)
             print('issue:', len(issues) - len(pull), 'pull', len(pull))
+            loc = Loc.get_loc(u[0], u[1])
+            print(loc)
 
         plt.xlabel('repo', fontweight='bold', fontsize=15)
         plt.legend()
