@@ -1,6 +1,7 @@
-from flask import jsonify, request, send_file
+from flask import jsonify
+import requests
 
 class CompareController:
     @staticmethod
-    def compareRepo():
-        return jsonify({})
+    def compareRepo(owner, repo):
+        return 0
